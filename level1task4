@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main() {
+ double radius;
+ double PI=3.14;
+ cout<<"Dairenin radiusunu daxil et: ";
+ cin>>radius;
+ if(radius>=0){
+   double sahe=PI*radius*radius;
+   double cevre=2*PI*radius;
+   cout<<"SAHE: "<<sahe<<endl;
+   cout<<"CEVRE UZUNLUGU: "<<cevre<<endl;
+}
+else{
+  cout<<"XETA"<<endl;
+}
+  return 0;
+}
