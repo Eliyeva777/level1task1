@@ -1,0 +1,18 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main(){
+ double a;
+ cout<<"kvadratin terefini daxil et: ";
+ cin>>a;
+ if(a>=0){
+  double sahe=a*a;
+  double perimetr=4*a;
+  cout<<"SAHE: "<<sahe<<"PERIMETR: "<<perimetr<<endl;
+}
+else{
+cout<<"XETA":
+}
+
+  return 0;
+}
