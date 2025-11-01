@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() {
+long long saniye;
+cin>>saniye;
+if(saniye>=0){
+ long long deqiqe=saniye/60;
+ long long saat=saniye/3600;
+ cout<<"DEQIQE: "<<deqiqe<<endl;
+ cout<<"SAAT: "<<saat<<endl;
+
+}
+else{
+  cout<<"XETA"<<endl;
+}
+   return 0;
+}
